@@ -48,7 +48,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string>entrypoint.py</string>
+				<string>people_query.py</string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
