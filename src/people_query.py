@@ -4,10 +4,9 @@ from __future__ import annotations
 
 import os
 import sys
-import requests
 # setup access to the local .site-packages
 sys.path.insert(0, os.path.dirname(__file__) + "/.site-packages")  # noqa
-
+import requests
 from workflow import Workflow3
 
 
