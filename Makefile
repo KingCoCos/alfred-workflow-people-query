@@ -5,9 +5,9 @@ PYTHON := /usr/bin/python3
 WF_VERSION := $(shell $(PYTHON) src/__version__.py)
 
 # plist values
-WF_NAME := meme
-WF_CREATEDBY := NorthIsUp
-WF_BUNDLEID := com.${WF_CREATEDBY}.${WF_NAME}
+WF_NAME := people_query
+WF_CREATEDBY := jcc
+WF_BUNDLEID := ${WF_CREATEDBY}.alfredworkflow.${WF_NAME}
 WF_DISABLED := false
 WF_WEBADDRESS := github.com/${WF_CREATEDBY}
 WF_README := Readme.md
